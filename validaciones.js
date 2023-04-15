@@ -8,6 +8,7 @@ var edad = document.getElementById('edad');
 var genero = document.getElementById('genero');
 var correo = document.getElementById('correo');
 var profesion = document.getElementById('profesion');
+var error = document.getElementById('error');
 error.style.color='red';
 
 function enviarFormulario(){
