@@ -21,6 +21,7 @@
                         <div class="col">
                           <label for="nombre">Nombre*</label>
                           <input type="text" class="form-control" name="nombre" id="nombre" value="" placeholder="Ignacio" required>
+                          
                         </div>
                         <div class="col">
                             <label for="apellido">Apellido Paterno*</label>
@@ -91,7 +92,8 @@
 
                     <div class="row justify-content-center mt-5">
                         
-                        <button class="btn btn-primary submit mt-3 mb-1 mr-5" name="registrarme"  id="registrarme">Crear Carta</button>
+                        
+                        <input class="btn btn-primary mt-3 mb-1 mr-5" type="submit" onclick='return crearCarta();' value='Crear Carta'>
                         <input class="btn btn-primary mt-3 mb-1 mr-5" type="submit" onclick='return enviarFormulario();' value='Enviar'>
 
                     </div>
